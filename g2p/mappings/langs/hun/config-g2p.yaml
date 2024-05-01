@@ -1,0 +1,14 @@
+<<: &shared
+  language_name: Hungarian
+mappings:
+  - display_name: Hungarian to IPA
+    in_lang: hun
+    out_lang: hun-ipa
+    authors:
+      - Hegedüs Armand Alex
+    type: mapping
+    rules_path: hun_to_ipa.csv
+    rule_ordering: apply-longest-first
+    case_sensitive: false
+    norm_form: 'NFC'
+    <<: *shared
